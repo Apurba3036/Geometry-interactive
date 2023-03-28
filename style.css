@@ -1,0 +1,95 @@
+body{
+
+    background-image: url('https://img.freepik.com/free-photo/smooth-blue-wooden-textured-background_53876-108424.jpg');
+}
+
+
+.shadow {
+
+    height: 100px;
+    justify-content:space-between;
+ 
+}
+
+
+.blog-btn{
+
+    text-align: center;
+    padding-top:15px;
+    padding-right: 15px;
+}
+.container {
+    padding: 20px;
+    margin-bottom: 26%;
+}
+
+.row {
+
+    margin-top: -205px;
+}
+
+
+
+#block {
+
+    height: 250px;
+
+    margin-top: 246px;
+
+}
+
+
+
+.width {
+
+    background-color: rgb(232, 243, 243);
+    height: 400px;
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 12px;
+}
+
+
+.width:hover {
+
+    background-color: azure;
+}
+
+.img {
+
+    height: 50%;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fix {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 30%;
+    height: 104px;
+    width: 20%;
+
+}
+
+#messenger {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+
+#area-calculate {
+
+    display: none;
+
+}
+
+#area-calculate2 {
+
+    display: none;
+}
