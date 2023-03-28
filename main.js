@@ -3,9 +3,22 @@ function triangle() {
 
     const b = parseFloat(document.getElementById('triangle-b').value);
     const h = parseFloat(document.getElementById('triangle-h').value);
-    const area = .5 * b * h;
+    if(isNaN(b)&& isNaN(h) ){
 
+        alert('Pls insert valid num ')
+    }
+
+    else if (b<0 && h<0){
+
+
+        alert('Pls insert positive num')
+    }
+
+    else{
+    const area = .5 * b * h;
+    
     return area;
+    }
 
 }
 
@@ -13,10 +26,22 @@ function rec() {
 
     const w = parseFloat(document.getElementById('rec-w').value);
     const l = parseFloat(document.getElementById('rec-l').value);
+    if(isNaN(w)&& isNaN(l) ){
+
+        alert('Pls insert valid num ')
+    }
+
+    else if (w<0 && l<0){
+
+
+        alert('Pls insert positive num')
+    }
+
+    else{
     const area = w * l;
 
     return area;
-
+    }
 
 }
 
